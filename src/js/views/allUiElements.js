@@ -1,0 +1,15 @@
+export default {
+  weatherForm: document.querySelector(".modal-body > form"),
+  weatherCityVal: document.querySelector("#city-enter"),
+  weatherCountryVal: document.querySelector("#country-enter"),
+  uiCity: document.querySelector(".city-label"),
+  uiState: document.querySelector(".country-label"),
+  uiCloudy: document.querySelector(".cloudy-text"),
+  uiTemp: document.querySelector(".temp-cotainer"),
+  uiOne: document.querySelector(".one-item"),
+  uiTwo: document.querySelector(".two-item"),
+  uiThree: document.querySelector(".three-item"),
+  uiFour: document.querySelector(".fourth-item"),
+  loaderClass: "loading",
+  modelId: "#myModal",
+};
