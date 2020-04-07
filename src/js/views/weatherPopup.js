@@ -1,16 +1,15 @@
 import allUiElements from "./allUiElements";
-const { weatherCityVal, weatherCountryVal } = allUiElements;
+const { weatherCityVal, weatherState } = allUiElements;
 export const popupValue = () => {
-  if (
-    weatherCityVal.value.trim() === "" ||
-    weatherCountryVal.value.trim() === ""
-  ) {
+  const cityV = weatherCityVal.value.trim();
+  const stateV = weatherState.value.trim();
+  if (cityV === "" || stateV === "") {
     alert("Enter city and state value");
     return false;
   }
 
   return {
-    cityval: weatherCityVal.value,
-    stateval: weatherCountryVal.value,
+    cityval: cityV,
+    stateval: stateV,
   };
 };

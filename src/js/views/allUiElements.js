@@ -1,7 +1,7 @@
 export default {
   weatherForm: document.querySelector(".modal-body > form"),
   weatherCityVal: document.querySelector("#city-enter"),
-  weatherCountryVal: document.querySelector("#country-enter"),
+  weatherState: document.querySelector("#country-enter"),
   uiCity: document.querySelector(".city-label"),
   uiState: document.querySelector(".country-label"),
   uiCloudy: document.querySelector(".cloudy-text"),
